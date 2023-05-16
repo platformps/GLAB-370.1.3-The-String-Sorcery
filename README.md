@@ -1,90 +1,47 @@
-# Title: Bug Busters: Debugging Techniques for Python Applications
+# GLAB-370.1.3 The String Sorcery: Python Edition
 
 ## Introduction
+Welcome to GLAB-370.1.3! Get ready to dive into the magical world of string manipulation in Python. In this lab, you'll unravel the secrets of transforming and manipulating strings, creating powerful incantations that will enchant your code. Brace yourself for The String Sorcery: Python Edition!
 
-Debugging is a crucial process in software development that involves identifying and fixing errors or bugs in code. Debugging helps developers ensure that their programs are working as expected and can lead to improved code quality and a better user experience. Python applications, like any other software, can have bugs that affect the program's behavior, and it is essential to find and fix these bugs to prevent errors, crashes, or incorrect output.
-
-Example Code
-
-```
-import logging
-
-logging.basicConfig(level=logging.DEBUG)
-
-def factorial(n):
-    result = 1
-    for i in range(1, n + 1):
-        result *= i
-    return result
-
-if __name__ == '__main__':
-    n = 5
-    print(f'The factorial of {n} is {factorial(n)}')
-```
+## Prerequisites
+To fully enjoy this lab, you should have a basic understanding of Python syntax and be familiar with string data types and basic programming concepts.
 
 ## Instructions
 
-### Introduction to Debugging
-
-Debugging is a critical process in software development that involves identifying and fixing errors or bugs in code. Bugs in Python applications can manifest in various forms, such as syntax errors, indentation errors, logical errors, and edge cases. Bugs can cause unexpected behavior, crashes, or incorrect results in programs.
-
-- Have the students create a new Python file and name it program.py.
-- They should start by importing the logging module: import logging.
-- Explain that print statements are a simple and effective way to debug code by printing variable values, function outputs, and control flow.
-- Students should then add print statements and logging statements to the code to debug any issues:
+### Step 1: Enter the Realm of Strings
+As you step into this enchanting realm, you'll discover a multitude of string manipulation techniques. Brace yourself and prepare to unlock the hidden powers of Python strings. Let's begin with a simple example:
 
 ```
-import logging
+# The Magical Reversal
+text = input("Enter a word or phrase: ")
 
-logging.basicConfig(level=logging.DEBUG)
+reversed_text = text[::-1]
 
-def factorial(n):
-    result = 1
-    for i in range(1, n + 1):
-        logging.debug(f'i={i}, result={result}')
-        result *= i
-    return result
-
-if __name__ == '__main__':
-    n = 5
-    print(f'The factorial of {n} is {factorial(n)}')
+print("The reversed version is:", reversed_text)
 ```
 
-- Explain that this code defines a function that calculates the factorial of a number and logs the intermediate results.
-- The print statement shows the final output of the function call.
-- Debugging with Python Debugger (pdb)
+### Step 2: Embrace the String Sorcery
+To experience the magic of string manipulation, follow these steps:
 
-- Explain how to use the Python debugger (pdb) to step through code, inspect variables, and set breakpoints.
-- Have the students run the code in the debugger by adding the following lines to the code:
+- [ ] Open your favorite Python IDE or a text editor.
+- [ ] Create a new Python file and give it a mystical name like "string_sorcery.py".
+- [ ] Copy the code snippet from Step 1 into your file.
+- [ ] Save the file and run it.
 
-```
-import pdb
-pdb.set_trace()
-```
+### Step 3: Unleash Your String Sorcery
 
-This will pause the execution of the program at this point and start the pdb prompt.
+Now it's time to unleash your own string sorcery. Channel your imagination and explore the vast possibilities of string manipulation in Python. Here are a few ideas to ignite your creativity:
 
-- Students can use the n command to step to the next line, the s command to step into a function, the p command to print a variable, and the q command to quit the debugger.
-- They should use the debugger to identify and fix any bugs in the code.
-- Error Handling with Try-Except Blocks and Logging
+**The Word Alchemist:** Create a program that counts the number of occurrences of each word in a given text. Use string manipulation techniques to split the text into words and update a dictionary with the word counts.
 
-- Explain how to handle runtime errors using try-except blocks and how to log error messages using the logging module.
-- Have the students modify their code to handle runtime errors by adding a try-except block and logging error messages:
-```
-import logging
+**The Cipher Master:** Implement a simple Caesar cipher encryption and decryption program. Prompt the user to enter a message and a shift value. Apply the shift to each character in the message to create an encrypted version and vice versa for decryption.
 
-logging.basicConfig(level=logging.DEBUG)
+**The Anagram Conjurer:** Write a program that prompts the user to enter two words or phrases. Determine if they are anagrams (contain the same characters in different orders) and reveal the secret connection between them.
 
-def factorial(n):
-    try:
-        result = 1
-        for i in range(1, n + 1):
-            logging.debug(f'i={i}, result={result}')
-            result *= i
-        return result
-    except Exception as e:
-        logging.error(f"Error calculating factorial: {e}")
+Feel free to embrace these ideas or create your own magical string manipulations. Let your creativity flow, experiment, and weave spells with Python strings!
 
-result = factorial(5)
-print(result)
-```
+### Step 4: Share Your String Sorcery
+Once you've mastered the art of string manipulation, share your mystical creation(s) with your instructor
+
+### Conclusion
+Congratulations on completing The String Sorcery: Python Edition! You have unlocked the secrets of string manipulation and harnessed the power to transform and manipulate text with Python. Take these newfound skills and continue your journey into the vast realms of Python programming. The magic of strings awaits—keep conjuring and creating wonders with your string sorcery!
