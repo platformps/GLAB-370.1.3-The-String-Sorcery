@@ -1,4 +1,4 @@
-# GLAB-370.1.3 The String Sorcery: Python Edition
+# GLAB-370.1.3 The String Sorcery
 
 ## Introduction
 Welcome to GLAB-370.1.3! Get ready to dive into the magical world of string manipulation in Python. In this lab, you'll unravel the secrets of transforming and manipulating strings, creating powerful incantations that will enchant your code. Brace yourself for The String Sorcery: Python Edition!
@@ -44,4 +44,4 @@ Feel free to embrace these ideas or create your own magical string manipulations
 Once you've mastered the art of string manipulation, share your mystical creation(s) with your instructor
 
 ### Conclusion
-Congratulations on completing The String Sorcery: Python Edition! You have unlocked the secrets of string manipulation and harnessed the power to transform and manipulate text with Python. Take these newfound skills and continue your journey into the vast realms of Python programming. The magic of strings awaits—keep conjuring and creating wonders with your string sorcery!
+Congratulations on completing The **String Sorcery!** You have unlocked the secrets of string manipulation and harnessed the power to transform and manipulate text with Python. Take these newfound skills and continue your journey into the vast realms of Python programming. The magic of strings awaits—keep conjuring and creating wonders with your string sorcery!
